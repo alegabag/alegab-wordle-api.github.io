@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordle PPY</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body id="body">
+    <header>
+        <h1>Wordle PPY</h1>
+        <button id="modo-btn">Modo Oscuro</button>
+    </header>
+    <div id="container">
+        <input type="text" id="guess-input" maxlength="5" placeholder="Ingrese su intento">
+        <button id="guess-button">Intentar</button>
+        <div id="grid">
+            <div class="row"></div>
+
+            <div class='row'></div>
+        </div>
+    </div>
+    <p id="guesses"></p>
+</body>
+</html>
